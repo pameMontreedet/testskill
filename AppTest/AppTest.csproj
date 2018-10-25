@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Moq" Version="4.8.3" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <ProjectReference Include="..\AppLib\AppLib.csproj" />
+    <ProjectReference Include="..\AppBackend\AppBackend.csproj" />
+    <ProjectReference Include="..\AppFrontend\AppFrontend.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBackend", "AppBackend.csproj", "{67EEF957-1595-40C9-A70D-E044487A19B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67EEF957-1595-40C9-A70D-E044487A19B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EEF957-1595-40C9-A70D-E044487A19B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EEF957-1595-40C9-A70D-E044487A19B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EEF957-1595-40C9-A70D-E044487A19B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+version: "3"
+services: 
+  sqlserver:
+    image: 3dsinteractive/mssql-server-linux:2017
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Test@123
